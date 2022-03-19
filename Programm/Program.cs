@@ -23,3 +23,11 @@ void PrintArray(string[] array)
         Console.Write($"{item} ");
     }
 }
+
+string[] firstArray = { "Dear", "teacher",  ",", "thank", "you", "for", "the",  "training", "!" };
+string[] newArray = GetNewArray(firstArray);
+Console.WriteLine("Задан следующий массив строк:");
+PrintArray(firstArray);
+Console.WriteLine();
+Console.WriteLine("Новый массив выглядит так:");
+PrintArray(newArray);
