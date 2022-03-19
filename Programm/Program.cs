@@ -16,3 +16,10 @@ string[] GetNewArray(string[] firstArray)
     Array.Resize(ref newArray, realSize);
     return newArray;
 }
+void PrintArray(string[] array)
+{
+    foreach (var item in array)
+    {
+        Console.Write($"{item} ");
+    }
+}
